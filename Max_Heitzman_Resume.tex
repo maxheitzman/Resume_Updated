@@ -1,0 +1,158 @@
+\documentclass[letterpaper,10pt]{article}
+
+\usepackage{latexsym}
+\usepackage[empty]{fullpage}
+\usepackage{titlesec}
+\usepackage{marvosym}
+\usepackage[usenames,dvipsnames]{color}
+\usepackage{enumitem}
+\usepackage[hidelinks]{hyperref}
+\usepackage{fancyhdr}
+\usepackage[english]{babel}
+\usepackage{tabularx}
+\input{glyphtounicode}
+
+\pagestyle{fancy}
+\fancyhf{}
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0pt}
+
+\addtolength{\oddsidemargin}{-0.5in}
+\addtolength{\evensidemargin}{-0.5in}
+\addtolength{\textwidth}{1in}
+\addtolength{\topmargin}{-0.65in}
+\addtolength{\textheight}{1.5in}
+
+\urlstyle{same}
+\setlength{\tabcolsep}{0in}
+\raggedbottom
+\raggedright
+
+\titleformat{\section}
+  {\vspace{-2pt}\color{black}\rule{\linewidth}{0.5pt}\vspace{2pt}\\\scshape\large\raggedright}
+  {}{0em}{}
+
+\titlespacing{\section}{0pt}{6pt}{2pt}
+\setlist[itemize]{leftmargin=0.15in, itemsep=2pt, topsep=2pt}
+\pdfgentounicode=1
+
+\newcommand{\resumeItem}[1]{\item\small{#1}}
+\newcommand{\resumeSubheading}[4]{
+  \item
+  \begin{tabular*}{0.97\textwidth}[t]{l@{\extracolsep{\fill}}r}
+    \textbf{#1} & #2 \\
+    \textit{\small#3} & \textit{\small #4} \\
+  \end{tabular*}
+}
+\newcommand{\resumeSubHeadingListStart}{\begin{itemize}}
+\newcommand{\resumeSubHeadingListEnd}{\end{itemize}}
+\newcommand{\resumeItemListStart}{\begin{itemize}[itemsep=2pt]}
+\newcommand{\resumeItemListEnd}{\end{itemize}}
+
+\begin{document}
+
+\begin{center}
+  {\Huge \scshape Max Heitzman} \\ \vspace{1pt}
+  \small Lubbock, TX $|$ (214) 543-2528 $|$ \href{mailto:maxheitzman@gmail.com}{maxheitzman@gmail.com} $|$ \href{https://github.com/maxheitzman}{github.com/maxheitzman} $|$ \href{https://linkedin.com/in/maxheitzman}{linkedin.com/in/maxheitzman} \\
+  \vspace{2pt}
+  \textit{Aspiring AI-focused graduate student with a background in systems programming, algorithms, and applied computing.}
+\end{center}
+
+\vspace{-6pt}
+\section*{Education}
+\resumeSubHeadingListStart
+\resumeSubheading
+  {Texas Tech University}{Expected: Dec 2025}
+  {B.S. Computer Science, Minor in Mathematics}{Lubbock, TX}
+  \resumeItemListStart
+    \resumeItem{GPA (Last 60 hrs): $\sim$3.4}
+    \resumeItem{Relevant Coursework: Data Structures, Algorithms, OOP, Programming Languages, ISA, Math Statistics}
+  \resumeItemListEnd
+\resumeSubHeadingListEnd
+
+\vspace{-6pt}
+\section*{Projects}
+\resumeSubHeadingListStart
+\resumeSubheading
+  {Multiprocessor Cellular Automaton Simulator}{Apr 2025}
+  {Python — Parallel Programming}{GitHub}
+  \resumeItemListStart
+    \resumeItem{Two-phase simulator evolves matrix state via symbolic rules.}
+    \resumeItem{Implemented multiprocessing for 40\% runtime gain over serial.}
+  \resumeItemListEnd
+
+\resumeSubheading
+  {Syntax Parser}{Mar 2025}
+  {C — Compiler Design}{GitHub}
+  \resumeItemListStart
+    \resumeItem{Recursive descent parser validates grammar using BNF rules.}
+    \resumeItem{Consumes token stream output from lexical analyzer.}
+  \resumeItemListEnd
+
+\resumeSubheading
+  {Lexical Analyzer}{Feb 2025}
+  {C — Language Processing}{GitHub}
+  \resumeItemListStart
+    \resumeItem{Classifies lexemes as keywords, identifiers, literals, or operators.}
+    \resumeItem{Handles syntax edge cases in symbolic streams.}
+  \resumeItemListEnd
+
+\resumeSubheading
+  {QuickHybridSort Analysis}{Spring 2025}
+  {Python — Algorithms}{GitHub}
+  \resumeItemListStart
+    \resumeItem{Benchmarked QuickSort/InsertionSort hybrid across input sizes.}
+    \resumeItem{Plotted crossover point to determine optimal threshold.}
+  \resumeItemListEnd
+
+\resumeSubheading
+  {0/1 Knapsack Zoo Trip Simulator}{Spring 2025}
+  {Python — Dynamic Programming}{GitHub}
+  \resumeItemListStart
+    \resumeItem{Applied bottom-up DP to plan optimal zoo routes under constraints.}
+  \resumeItemListEnd
+
+\resumeSubheading
+  {OOP Java Tools}{Spring 2025}
+  {Java — Serialization, I/O, Exceptions}{Texas Tech}
+  \resumeItemListStart
+    \resumeItem{Built file tools, test scorer, and calculator using Java OOP.}
+  \resumeItemListEnd
+
+\resumeSubheading
+  {Assembly Language Programming}{Fall 2024}
+  {x86 Assembly — Computer Org.}{Texas Tech}
+  \resumeItemListStart
+    \resumeItem{Wrote MASM programs for Fibonacci, RNGs, and endian conversion.}
+    \resumeItem{Demonstrated register usage, memory control, and array indexing.}
+  \resumeItemListEnd
+\resumeSubHeadingListEnd
+
+\vspace{-6pt}
+\section*{Technical Skills}
+\begin{itemize}
+  \item[]
+  \small{
+  \textbf{Programming Languages:} \\
+  \hspace{1em} \textbf{Proficient:} C, Python, Java \\
+  \hspace{1em} \textbf{Familiar:} x86 Assembly, Bash, LaTeX, C++, Scheme, Prolog \\
+  \hspace{1em} \textbf{Learning:} JavaScript, SQL
+
+  \vspace{4pt}
+  \textbf{Tools:} Git, VS Code, Overleaf, MobaXterm, Eclipse, PyCharm, Linux (HPCC), CLI Editing \\
+  \textbf{Concepts:} Lexical Analysis, Parsing, Recursion, OOP, Multiprocessing, Dynamic Programming, ISA
+  }
+\end{itemize}
+
+\vspace{-6pt}
+\section*{Organizations}
+\resumeSubHeadingListStart
+\resumeSubheading
+  {Google Developer Student Club (GDSC)}{Aug 2023 – Present}
+  {Member, Texas Tech University}{}
+\resumeSubheading
+  {Association for Computing Machinery (ACM)}{Aug 2023 – Present}
+  {Member, Texas Tech University}{}
+\resumeSubHeadingListEnd
+
+\end{document}
