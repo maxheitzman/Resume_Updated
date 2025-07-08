@@ -5,23 +5,32 @@
 
 ---
 
-## 📄 About This Resume
+## 📄 Overview
 
-This repository contains my most recent resume for graduate school applications, internships, and job opportunities in fields like:
+This repository contains my most recent resume for graduate school applications and professional opportunities in:
 
-- Applied Artificial Intelligence  
+- Artificial Intelligence & Machine Learning  
 - Data Systems & Infrastructure  
-- Machine Learning Engineering
+- Software Engineering & Parallel Computing  
 
-🎓 **B.S. in Computer Science** – Texas Tech University  
-🧮 **Minor in Mathematics**  
-📈 **Last 60 Credit Hour GPA: ~3.4**  
+🎓 **B.S. in Computer Science – Texas Tech University**  
+📍 **Minor in Mathematics**  
+📈 **Last 60 GPA: ~3.4**  
 📅 **Expected Graduation: Fall 2025**
 
 ---
 
-## 🔗 Contact Me
+## 🛠️ Files
 
-- 🌐 [LinkedIn](https://www.linkedin.com/in/maxheitzman)
-- 💼 [GitHub](https://github.com/maxheitzman)
-- 📧 maxheitzman@gmail.com
+- [`Max_Heitzman_Resume.pdf`](Max_Heitzman_Resume.pdf) – Final compiled resume (PDF)
+- [`Max_Heitzman_Resume.tex`](Max_Heitzman_Resume.tex) – LaTeX source file used to generate the PDF
+
+---
+
+## 🧪 LaTeX Info
+
+This resume is built using LaTeX for clean formatting and precise control.  
+If you want to compile it yourself:
+
+```bash
+pdflatex Max_Heitzman_Resume.tex
